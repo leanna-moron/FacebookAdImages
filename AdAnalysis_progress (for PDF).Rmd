@@ -86,7 +86,7 @@ kable(table,
       caption = "Table 1. Responses from five advertisement image samples for \"In the past fourteen days, how often have you felt nervous, anxious, or on edge?\"", 
       digits = 2, 
       align = "c") %>%
-add_footnote ("Note: Proportion of respondents by image for each response category; X-squared = 65.182, df = 12, p < 0.001", notation = "none") %>%
+add_footnote ("X-squared = 65.182, 12 df, p < 0.001", notation = "none") %>%
 row_spec(5, bold = TRUE) %>%
 kable_styling (latex_options = c("striped", full_width = F, "hold_position"))
 ```
